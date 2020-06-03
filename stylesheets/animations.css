@@ -1,0 +1,35 @@
+
+/* Moons eyes that follows the rocket */
+@keyframes eyes {
+    0% {
+        margin-top: 10px;
+    }
+    25% {
+        margin-top: 5px;
+    }
+    50% {
+        margin-top: 5px;
+    }
+    100% {
+        margin-top: 0px;
+    }
+}
+
+/* Makes the rocket fade in and out */
+@keyframes fire {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: .5;
+    }
+
+    75% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
