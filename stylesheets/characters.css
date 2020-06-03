@@ -38,19 +38,24 @@
     border-radius: 50%;
     margin-top: 10px;
     animation-name: eyes;
-    animation-duration: 4s;
+    animation-duration: 10s;
     animation-fill-mode: forwards;
 }
 
 /* Space Rocket moving */
 #rocket {
     border: solid black 2px;
+    background-color: teal;
     border-top-right-radius: 15%;
     border-top-left-radius: 15%;
-    transform: rotate(50deg);
+    transform: rotate(10deg);
     height: 60px;
     width: 50px;
     margin-left: 5%;
+    animation-name: flying;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
 }
 
 #rocket-top {
@@ -59,7 +64,7 @@
     border-left: 25px solid transparent;
     border-right: 25px solid transparent;
     border-bottom: 35px solid red;
-    margin-top: -33px
+    margin-top: -33px;
 }
 
 #window {
@@ -90,6 +95,6 @@
     background-image: linear-gradient( #F9D423, #FF4E50 ); ;
     display: inline-block;
     animation-name: fire;
-    animation-duration: 4s;
+    animation-duration: 2s;
     animation-iteration-count: infinite;
 }
