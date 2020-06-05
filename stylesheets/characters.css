@@ -7,7 +7,7 @@
     margin-left: 55%;
     margin-right: auto;
     margin-top: 5%;
-
+    
     box-shadow: 
         3px 3px 3px grey,
         3px 3px 3px lightgrey;
@@ -70,7 +70,7 @@
     width: 50px;
     margin-left: 5%;
     animation-name: flying;
-    animation-duration: 10s;
+    animation-duration: 8s;
     animation-fill-mode: forwards;
     animation-iteration-count: 1;
 }

@@ -32,7 +32,7 @@
 /* Moves rocket forward */
 @keyframes flying {
   0%   {margin-left: 15%; margin-top: 300px;}
-  100% {margin-left: 550px; margin-top: -550px;}
+  100% {margin-left: 550px; margin-top: -650px;}
 }
 
 /* makes moon arm wave */
@@ -52,7 +52,8 @@
 }
 
 @keyframes speech {
-    0% {opacity: 1;}
+    0% {opacity: 0;}
+    25% {opacity: 1;}
     100% {opacity: 0;}
 }
 
