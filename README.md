@@ -1,2 +1,2 @@
-# website-template
-Basic CSS animations and layouts for a single page website
+# CSS-Animations
+Basic CSS animations of cartoons and images made with CSS and HTML. 
