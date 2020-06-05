@@ -1,0 +1,117 @@
+/* Moon Character */
+#moon {
+    border-radius: 50%;
+    background-color: lightgrey;
+    width: 150px;
+    height: 150px;
+    margin-left: 55%;
+    margin-right: auto;
+    margin-top: 5%;
+    
+    box-shadow: 
+        3px 3px 3px grey,
+        3px 3px 3px lightgrey;
+}
+
+.crater {
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+
+#smile {
+    height: 25px;
+    width: 25px;
+    margin-left: 25%;
+    animation-name: mouth;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-duration: 8s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.eye {
+    background-color: black;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-top: 10px;
+    animation-name: eyes;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+}
+
+#arm {
+    height: 80px;
+    width: 5px;
+    background-color: grey;
+    margin-left: 130px;
+    margin-top: -100px;
+    animation-name: wave;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+/* Space Rocket moving */
+#rocket {
+    border: solid black 2px;
+    background-color: teal;
+    border-top-right-radius: 15%;
+    border-top-left-radius: 15%;
+    transform: rotate(10deg);
+    height: 60px;
+    width: 50px;
+    margin-left: 5%;
+    animation-name: flying;
+    animation-duration: 8s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+}
+
+#rocket-top {
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 35px solid red;
+    margin-top: -33px;
+}
+
+#window {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: lightgrey;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}
+
+.thrusters {
+    border-radius: 50%;
+    border-top: black solid 2px;
+    width: 20px;
+    height: 20px;
+    background-image: linear-gradient( #F9D423, #FF4E50, red ); ;
+    background-size: 50% 50%;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.fire {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-image: linear-gradient( #F9D423, #FF4E50 ); ;
+    display: inline-block;
+    animation-name: fire;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}

@@ -4,16 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Animations</title>
-    <link rel="stylesheet" href="stylesheets/main.css">
-    <link rel="stylesheet" href="stylesheets/animations.css">
-    <link rel="stylesheet" href="stylesheets/characters.css">
+    <!-- Syling all for Moon/space animation -->
+    <link rel="stylesheet" href="moon-stylesheets/main.css">
+    <link rel="stylesheet" href="moon-stylesheets/animations.css">
+    <link rel="stylesheet" href="moon-stylesheets/characters.css">
+    <!-- Universal styling for Navbar/body -->
+    <link rel="stylesheet" href="index.css">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
 </head>
-
 <body>
+<nav>
+    <h5 id="header">Animations & Drawings</h5>
+    <a href="index.html" class="nav-item">Moon</a>
+    <a href="hobbes.html"class="nav-item">Hobbes</a>
+</nav>
+
    
-    <div id="intro-section">
+    <div id="space-container">
+
+        <!-- Stars!!! -->
         <div class="stars"></div>
         <div class="stars"></div>
         <div class="stars"></div>
@@ -23,9 +33,11 @@
         <div class="stars"></div>
         <div class="stars"></div>
         <div class="stars"></div>
+
         <!-- Moon talking -->
         <p id="speech">Take me with you...</p>
         <p id="sad-speech">oh, ok</p>
+        
         <!-- Moon's body -->
         <div id="moon">
             <div class="crater">
@@ -37,6 +49,7 @@
             <div id="smile"></div>
             <div id="arm"></div>
         </div>
+
         <!-- Space Ship -->
         <div id="rocket">
             <div id="rocket-top"></div>

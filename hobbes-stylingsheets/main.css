@@ -1,0 +1,85 @@
+#main-container {
+    border: solid black 2px;
+    height: 600px;
+}
+
+#hobbes-body {
+    height: 250px;
+    width: 150px;
+    border-color: black solid 2px;
+    background-color: orangered;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+    border-radius: 50%;
+}
+
+#belly {
+    height: 200px;
+    width: 100px;
+    background-color: white;
+    border-radius: 50%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#left-arm {
+    height: 150px;
+    width: 50px;
+    background-color: orangered;
+    border-radius: 50%;
+    transform: rotate(85deg);
+    position: absolute;
+    margin-top: -210px;
+    margin-left: -75px;
+} 
+
+#left-hand {
+     border-radius: 50%;
+     background-color: white;
+     border: solid black 2px;
+     height: 35px;
+     width: 30px;
+     margin-top: 115px;
+     margin-left: 10px;
+}
+
+.stripes-left {
+    height: 20px;
+    width: 10px;
+    background-color: black;
+    transform: rotate(90deg);
+}
+
+#stripe-1 {
+    height: 19px;
+    margin-top: -180px;
+    margin-left: 25px;
+    transform: rotate(115deg);
+}
+
+#stripe-2 {
+    margin-top: 45px;
+    margin-left: 8px;
+    height: 24px;
+    transform: rotate(93deg);
+}
+
+#stripe-3 {
+    margin-top: 25px;
+    margin-left: 11px;
+    height: 27px;
+    transform: rotate(80deg);
+}
+
+#stripe-4 {
+    margin-top: 8px;
+    margin-left: 23px;
+    height: 33px;
+    transform: rotate(66deg);
+}
+
+
+
+

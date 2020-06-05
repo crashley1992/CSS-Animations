@@ -1,0 +1,28 @@
+/* Universal Styling sheet */
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Architects Daughter', cursive;
+}
+
+/* Navbar */
+nav {
+    background-color: lightgrey;
+}
+
+nav > h5 {
+    display: inline-block;
+    margin-right: 3%;
+    margin-left: 3%;
+}
+
+.nav-item {
+    color: inherit;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.nav-item:hover {
+    border-bottom: black 2px solid;
+}
