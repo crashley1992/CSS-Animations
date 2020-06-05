@@ -31,6 +31,32 @@
 
 /* Moves rocket forward */
 @keyframes flying {
-  0%   {margin-left: 350px; margin-top: 300px;}
+  0%   {margin-left: 15%; margin-top: 300px;}
   100% {margin-left: 550px; margin-top: -550px;}
+}
+
+/* makes moon arm wave */
+@keyframes wave {
+   0%   {transform: rotate(90deg);  transform-origin: bottom left;}
+   50%  {transform: rotate(50deg); transform-origin: bottom left;}
+   75%  {transform: rotate(90deg);  transform-origin: bottom left;}
+   100% {transform: rotate(50deg); transform-origin: bottom left;}
+}
+
+/* Makes moon mouth move */
+@keyframes mouth {
+  0% {border: solid black 2px;  border-radius: 38%; background-color: black; height: 5px;}
+  50% {border-bottom: solid black 2px; border-radius: 38%; background-color: black; height: 8px;}
+  75% {border-bottom: solid black 2px; border-radius: 38%; height: 1px;}
+  100%{border-bottom: solid black 2px; border-radius: 38%; height: 3px}
+}
+
+@keyframes speech {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+@keyframes sad-speech {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
 }
